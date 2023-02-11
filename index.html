@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portafolio</title>
+    <link rel="icon" href="./assets/img/LogoJAAG.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar grid--container">
+        <img src="assets/img/LogoJAAG.jpg" alt="profile photo" class="logo">
+        <div id="nav" class="navbar__menu">
+          <!--Icono de Cierre de Pagina-->
+          <a href="#close"><i class='bx bx-x  btn__close navbar__icon'></i></a>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#home">Inicio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#about">Acerca de Mí</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#projects">Portafolio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <!--Icono de Menú Desplegable-->
+        <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i></a>
+      </nav>
+    </header>
+    <main>
+      <!-- HOME  -->
+      <section id="home" class="home">
+        <div class="home__container grid--container">
+          <div class="home__image">
+            <span></span>
+            <img src="assets/img/profile.png" alt="profile photo">
+          </div>
+          <div class="home__info">
+            <h1 class="home__title">Juan Alvaro Arbelaez G.</h1>
+            <p class="home__description">
+              Soluciones en desarrollo y estrategias para que llevar tu empresa un paso adelante. <br>
+            </p>
+            <a class="home__CV" href="https://docs.google.com/document/d/1fgANjP_SrOIoU-S3LNkNhMLCxAjtPg4d/edit?usp=sharing&ouid=117621390067963773877&rtpof=true&sd=true" target="_blank">Curriculum Vitae</a>
+            <ul class="home__social">
+              <li class="home__social-item"><a class="home__social-link" href="https://www.linkedin.com/in/juan-alvaro-arbelaez-giraldo-5a49b31b2" target="_blank"><i class='fa fa-linkedin' style="font-size:48px;color: gainsboro"></i></a></li>
+              <li class="home__social-item"><a class="home__social-link" href="https://www.instagram.com/juanalvaro77/#" target="_blank"><i class="fa fa-instagram" style="font-size:48px;color:gainsboro"></i></a></li>
+              <li class="home__social-item"><a class="home__social-link" href="https://www.facebook.com/juan.a.arbelaez.9/" target="_blank"><i class='fa fa-facebook' style="font-size:48px;color:gainsboro"></i></a></li>
+            </ul>
+          </div>
+      </section>
+      <section id="about" class="about section">
+        <h2 class="section__title">Acerca de Mí</h2>
+        <div class="about__container grid--container">
+          <p class="about__description">
+            Ingeniero electrónico, con línea de profundización en Telemática y Seguridad Electronica, 
+            desarrollador WEB fullstack, uniendo metodologías de diseño, estrategias de negocio y 
+            desarrollo ágil. Destreza en el análisis y configuración de redes: cableado estructurado, 
+            configuración de equipos: tarjetas NIC, switches, routers, modems. 
+          </p>
+          <div class="about__skills grid--container">
+            <div class="about__cards">
+              <!-- Card 1 -->
+              <div class="about__card">
+                <i class='bx bxl-html5' ></i>
+                <h3 class="about__card-title">HTML5</h3>
+                <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y
+                  desplegar una página web y sus contenidos.</p>
+              </div>
+              <!-- Card 2 -->
+              <div class="about__card">
+                <i class='bx bxl-css3' ></i>
+                <h3 class="about__card-title">CSS3</h3>
+                <p>Hojas de Estilo en Cascada, es el código que usas para dar estilo a tu página web.</p>
+              </div>
+              <!-- Card 3 -->
+              <div class="about__card">
+                <i class='bx bxl-javascript' ></i>
+                <h3 class="about__card-title">JavaScript</h3>
+                <p>Es el lenguaje de programación que se usa para añadir características interactivas a tu
+                  sitio web.</p>
+              </div>
+            </div>
+            <div class="about__tags">
+              <h3 class="about__tags-title">Habilidades</h3>
+              <div class="about__tags-container">
+                <span class="about__tag">Responsable</span>
+                <span class="about__tag">Trabajo en Equipo</span>
+                <span class="about__tag">Disciplinado</span>
+                <span class="about__tag">Creativo</span>
+                <span class="about__tag">Puntual</span>
+                <span class="about__tag">Disposición permanente al cambio</span>
+                <span class="about__tag">Proactivo</span>
+                <span class="about__tag">Etico</span>                
+                <span class="about__tag">Autodidacta</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <section id="projects" class="projects__section">
+        <h2 class="section__title">Proyectos</h2>
+        <div class="projects__container grid--container">
+          <!-- Proyecto 1  -->
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/project1A.jpg" alt="project1">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Remember It</h3>
+                <p class="projects__description">App para la gestion de tareas en un equipo.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <a href="https://docs.google.com/document/d/1loZyXQNudmwHVAzBmPKOcZrLhkfZ8nsv/edit?usp=sharing&ouid=114656205449897947584&rtpof=true&sd=true" target="_blank">
+                    <button class="btn projects__button" type="button">VER CÓDIGO</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/img/project2.png" alt="project2">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 2</h3>
+                <p class="projects__description">Proyecto de Carrito de Compras.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <h2 class="section__title">Contacto</h2>
+        <div class="contact__container grid--container">
+          <div class="contact__info">
+            <h3 class="contact__info-title">Información de Contacto</h3>
+            <p class="contact__info-description">Para mayor informacion o cotización.</p>
+            <address class="contact__info-data">
+              <div class="contact__info-item">
+                <i class='bx bxl-whatsapp' ></i>
+                <span class="contact__info-number">
+                  <a href="https://wa.me/3163825386?text=Tu%20Mensaje%20De%20Texto"
+                  target="_blank"> 
+                  Enviar a WhatsApp</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+                <i class='bx bx-phone' ></i>
+                <span class="contact__info-number">
+                  <a href="tel:+57 3163825386">+57 3163825386</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+                <i class='bx bx-envelope' ></i>
+                <span class="contact__info-mail">
+                  <a id="mail" href="mailto:juanalvaro77@hotmail.com">juanalvaro77@hotmail.com</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+                <i class='bx bxs-map' ></i>
+                <span class="contact__info-map">
+                  Colombia
+                </span>
+              </div>
+            </address>
+          </div>
+          <div class="contact__form">
+            <h3 class="contact__form-title">Enviar Mensaje</h3>
+            <form id="form" class="contact__form-container">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Nombre</label>
+                <input type="text" id="name" name="name" class="contact__form-input">
+              </div>
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label">Asunto</label>
+                <input type="text" id="subject" name="subject" class="contact__form-input">
+              </div>
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+              </div>
+              <button type="submit" class="btn contact__form-button">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container grid--container">
+        <div class="footer__info">
+          <h3 class="footer__title">Juan Alvaro Arbelaez Giraldo</h3>
+          <p class="footer__description">
+            JAAG Dev & Sec
+            <br>Desarrollo Web y Seguridad.
+          </p>
+        </div>
+
+        <div class="footer__social">
+          <h3 class="footer__title">Redes Sociales</h3>
+          <ul class="footer__social-list">
+            <li class="home__social-item"><a class="home__social-link" href="https://www.facebook.com/juan.a.arbelaez.9/" target="_blank"><i class='fa fa-facebook' style="font-size:28px;color:gainsboro"></i></a></li>
+            <li class="home__social-item"><a class="home__social-link" href="https://www.instagram.com/juanalvaro77/#" target="_blank"><i class="fa fa-instagram" style="font-size:28px;color:gainsboro"></i></a></li>
+            <li class="home__social-item"><a class="home__social-link" href="https://www.linkedin.com/in/juan-alvaro-arbelaez-giraldo-5a49b31b2" target="_blank"><i class='fa fa-linkedin' style="font-size:28px;color: gainsboro"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+    <script>
+      const formulario = document.querySelector('#form')
+      const sendForm = document.querySelector('#mail')
+
+      formulario.addEventListener('submit', handleSubmit)
+
+      function handleSubmit(e) {
+        e.preventDefault()
+        const form = new FormData(this)
+        sendForm.setAttribute('href', `mailto:juanalvaro77@hotmail.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+        sendForm.click()
+      }
+    </script>
+  </body>
+</html>
